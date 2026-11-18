@@ -1,0 +1,22 @@
+/* Riverview College Styles */
+@layer base {
+  body {
+    @apply antialiased text-slate-800 bg-[#f8fafc];
+  }
+}
+
+.text-navy {
+  color: #1b365d;
+}
+
+.bg-navy {
+  background-color: #1b365d;
+}
+
+.border-navy {
+  border-color: #1b365d;
+}
+
+.hover\:bg-navy-dark:hover {
+  background-color: #112240;
+}
